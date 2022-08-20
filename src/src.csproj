@@ -6,4 +6,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FastEndpoints" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Infrastructures" />
+    <Folder Include="WebApi" />
+  </ItemGroup>
+
 </Project>
